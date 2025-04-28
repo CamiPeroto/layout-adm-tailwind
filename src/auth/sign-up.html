@@ -6,38 +6,36 @@
     <title>Layout</title>
     <link href="../output.css" rel="stylesheet">
 </head>
-<body class="bg-gradient-to-r from-neutral-50 to-purple-200 min-h-screen flex flex-col justify-center items-center">
-   
-    <div class="mt-6 w-full overflow-hidden bg-white px-6 py-4 shadow-lg sm:max-w-md sm:rounded-lg">
-        <div class="flex justify-center mb-4">
+<body class="bg-login">
+
+    <div class="card-login">
+        <div class="logo-wrapper-login">
             <a href="/">
-                <img src="../../public/favicon.ico" alt="Loogo" class="h-20 w-20">
+                <img src="../../public/favicon.ico" alt="Loogo" class="logo-login">
             </a>
         </div>
-        <h1 class="text-2xl font-bold text-center text-purple-600">Novo usuário</h1>
+        <h1 class="title-login">Novo usuário</h1>
         <form action="#" method="post" class="mt-4">
-            <div class="mt-4">
-                <label for="name" class="block text-sm font-medium text-gray-700">Nome</label>
-                <input type="name" name="name" id="name" placeholder="Digite seu nome completo" class="mt-1 block w-full rounded-md border-2 border-gray-200 shadow-xs focus:border-violet-300 focus:ring focus:ring-violet-400 focus:outline-none px-3 py-2">
+            <div class="form-group-login">
+                <label for="name" class="form-label-login">Nome</label>
+                <input type="name" name="name" id="name" placeholder="Digite seu nome completo" class="form-input-login">
             </div>
-            <div class="mt-4">
-                <label for="email" class="block text-sm font-medium text-gray-700">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" class="mt-1 block w-full rounded-md border-2 border-gray-200 shadow-xs focus:border-violet-300 focus:ring focus:ring-violet-400 focus:outline-none px-3 py-2">
+            <div class="form-group-login">
+                <label for="email" class="form-label-login">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" class="form-input-login">
             </div>
-            <div class="mt-4">
-                <label for="password" class="block text-sm font-medium text-gray-700">Senha</label>
-                <input type="password" name="password" id="password" placeholder="Digite sua senha" class="mt-1 block w-full rounded-md border-2 border-gray-200 shadow-xs  focus:border-violet-300 focus:ring focus:ring-violet-400 focus:outline-none px-3 py-2">
+            <div class="form-group-login">
+                <label for="password" class="form-label-login">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha" class="form-input-login">
             </div>
-            <div class="mt-4">
-                <label for="password" class="block text-sm font-medium text-gray-700"> Confirmar Senha</label>
-                <input type="password" name="password" id="password" placeholder="Confirme sua senha" class="mt-1 block w-full rounded-md border-2 border-gray-200 shadow-xs  focus:border-violet-300 focus:ring focus:ring-violet-400 focus:outline-none px-3 py-2">
+            <div class="form-group-login">
+                <label for="password" class="form-label-login"> Confirmar Senha</label>
+                <input type="password" name="password" id="password" placeholder="Confirme sua senha" class="form-input-login">
             </div>
 
-            <div class="mt-4 flex items-center justify-center">
-                <button type="submit" class="bg-blue-500 hover:bg-gray-400 text-white  mt-3 font-bold px-4 py-2 rounded focus:outline-none cursor-pointer">Cadastrar</button>  
-            </div>
-            <div class="mt-7 text-center">
-                <a href="../index.html" class="text-ms text-blue-600 hover:underline">Login</a>
+            <div class="btn-group-login">
+                <a href="../index.html" class="link-login">Login</a>
+                <button type="submit" class="btn-primary">Cadastrar</button>  
             </div>
         </form>
     </div>
