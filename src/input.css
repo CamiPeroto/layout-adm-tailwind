@@ -164,6 +164,14 @@
     @apply border p-2 w-full mt-1 rounded-md border-gray-200 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-400 focus:outline-none;
   }
   /**** Fim Formulário  ****/
+  /**** Inicio Detalhes Registro  ****/
+  .detail-box{
+    @apply text-shadow-gray-700
+  }
+  .detail-content{
+    @apply font-bold
+  }
+  /**** Fim Detalhes Registro ****/
 
   /* Inicio Botões  */
   .btn-primary {

@@ -207,6 +207,9 @@
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
+  .mb-1 {
+    margin-bottom: calc(var(--spacing) * 1);
+  }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
@@ -751,6 +754,16 @@
       --tw-outline-style: none;
       outline-style: none;
     }
+  }
+  .detail-box {
+    --tw-text-shadow-color: oklch(37.3% 0.034 259.733);
+    @supports (color: color-mix(in lab, red, red)) {
+      --tw-text-shadow-color: color-mix(in oklab, var(--color-gray-700) var(--tw-text-shadow-alpha), transparent);
+    }
+  }
+  .detail-content {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
   }
   .btn-primary {
     cursor: pointer;
