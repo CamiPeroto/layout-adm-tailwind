@@ -154,6 +154,17 @@
   }
 
   /* Fim da tabela listar registros  */
+  /**** Inicio Formulário  ****/
+  .form-label{
+    @apply block text-sm font-semibold;
+  }
+  /* Label dos inputs */
+  /* inputs padrão */
+  .form-input{
+    @apply border p-2 w-full mt-1 rounded-md border-gray-200 shadow-sm focus:border-gray-300 focus:ring focus:ring-gray-400 focus:outline-none;
+  }
+  /**** Fim Formulário  ****/
+
   /* Inicio Botões  */
   .btn-primary {
     @apply bg-blue-500 text-white text-sm px-2 py-1 rounded hover:bg-gray-400 transition-colors cursor-pointer;
