@@ -192,6 +192,9 @@
   .btn-danger {
     @apply bg-red-700 text-white text-sm px-2 py-1 rounded hover:bg-gray-400 transition-colors cursor-pointer;
   }
+  .align-icon-btn{
+    @apply flex items-center space-x-1
+  }
   /* Fim Botões  */
   /* Inicio Alertas  */
   .alert-primary{
